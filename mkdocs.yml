@@ -1,0 +1,22 @@
+site_name: nina
+theme:
+  language: it
+  font:
+    text: piridi
+  name: material
+  logo: eye_11170879.png  # Path to your logo image
+  palette:
+  # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/eye-outline
+        name: Switch to dark mode
+      primary: deep purple
+      accent: yellow
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/eye
+        name: Switch to light mode
+      primary: deep purple
+      accent: yellow
